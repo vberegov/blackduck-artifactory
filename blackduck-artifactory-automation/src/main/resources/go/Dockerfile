@@ -1,4 +1,4 @@
-FROM golang:1.12.7
+FROM golang:1.16.3
 
 ENV GOPROXY="http://<username>:<password>@<server>/artifactory/api/go/<repo-key>"
 
