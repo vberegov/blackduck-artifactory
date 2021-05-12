@@ -1,5 +1,5 @@
 # Setup Nuget
-FROM microsoft/dotnet:2.2-sdk
+FROM microsoft/dotnet:2-sdk
 
 RUN mkdir nuget
 WORKDIR nuget
